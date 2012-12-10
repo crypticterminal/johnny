@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=
+Name=johnny
 Encoding=UTF-8
 Exec=sh -c "johnny;sudo -s"
 Icon=kali-menu.png
