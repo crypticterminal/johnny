@@ -1,15 +1,16 @@
 Source: johnny
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0), libqt4-core, libqt4-gui, libqt4-dev, qt4-qmake, g++
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/johnny.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/johnny.git;a=summary
+Homepage: http://openwall.info/wiki/john/johnny
+Vcs-Git: ssh://git@git.kali.org/packages/johnny.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/johnny.git;a=summary
 
 Package: johnny
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, john
+Description: GUI for John the Ripper
+ Johnny is provides a GUI for the John the Ripper
+ password cracking tool.
