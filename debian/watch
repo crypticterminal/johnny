@@ -1,0 +1,4 @@
+version=3
+
+http://openwall.info/wiki/john/johnny /wiki/_media/john/johnny([\d\.]+)\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+
